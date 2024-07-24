@@ -82,7 +82,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 Column(
                   children: [
                     const SaleCardWidget(),
-                    SizedBox(height: 15),
+                    const SizedBox(height: 15),
                     const CredtiUzumWidget(),
                     returner('17-iyul'),
                     allCarusel(imageUrl, 'Baraka Riding',
