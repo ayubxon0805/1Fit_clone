@@ -2,6 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'package:new_app/widget/carusel_widget.dart';
 import 'package:new_app/widget/credit_uzum_widget.dart';
@@ -46,7 +48,7 @@ class _HomeScreenState extends State<HomeScreen> {
         title: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            const Text(
+            Text(
               'Lenta',
               style: TextStyle(
                 fontSize: 30,
@@ -80,7 +82,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 Column(
                   children: [
                     const SaleCardWidget(),
-                    const SizedBox(height: 15),
+                    SizedBox(height: 15),
                     const CredtiUzumWidget(),
                     returner('17-iyul'),
                     allCarusel(imageUrl, 'Baraka Riding',

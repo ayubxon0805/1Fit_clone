@@ -68,8 +68,8 @@ class _EditCaruselState extends State<EditCarusel> {
                               onPressed: () {},
                               style: ElevatedButton.styleFrom(
                                   backgroundColor:
-                                      Color.fromARGB(255, 61, 84, 218),
-                                  minimumSize: Size(900, 30)),
+                                    const  Color.fromARGB(255, 61, 84, 218),
+                                  minimumSize: const Size(900, 30)),
                               child: const Text(
                                 'Tanishlarni topish',
                                 style: TextStyle(

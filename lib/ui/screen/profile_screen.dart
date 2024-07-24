@@ -184,8 +184,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     const Spacer(),
                     Padding(
                       padding: const EdgeInsets.only(bottom: 20),
-                      child:
-                          IconButton(onPressed: () {}, icon: Icon(Icons.close)),
+                      child: IconButton(
+                          onPressed: () {}, icon: const Icon(Icons.close)),
                     ),
                   ],
                 ),
@@ -483,15 +483,15 @@ class _ProfileScreenState extends State<ProfileScreen> {
             const EditCarusel(),
             Row(
               children: [
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 25),
+                const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 25),
                   child: Text(
                     'Mening postlarim',
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
                   ),
                 ),
-                Spacer(),
-                Text(
+                const Spacer(),
+                const Text(
                   "o'tish",
                   style: TextStyle(
                       fontSize: 17,
@@ -500,7 +500,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 ),
                 IconButton(
                     onPressed: () {},
-                    icon: Icon(
+                    icon: const Icon(
                       Icons.navigate_next,
                       color: Colors.grey,
                     ))
